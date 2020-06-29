@@ -1,7 +1,7 @@
 # randompassword
-// User will be alerted when they click the green "Generate password" button
-// A list of prompts will show for user to choose from
-// User can choose, lowercase, uppercase, special characters, and numbers to generate a random password.
+<p> User will be alerted when they click the green "Generate password" button</p>
+<p> A list of prompts will show for user to choose from</p>
+<p> User can choose, lowercase, uppercase, special characters, and numbers to generate a random password.</p>
 
 <br>
 
