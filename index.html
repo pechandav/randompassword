@@ -7,6 +7,7 @@
 
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <title>Random Password Generator</title>
   </head>
@@ -20,11 +21,12 @@
     <form>
         <div id="content">
     
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="password" class="form-text text-muted">Your Secure Password Will Generate in the Box. You may now copy and paste your Unique password!</small>
-        </div>
+            <textarea readonly id="password" placeholder="Your Secure Password"
+            aria-label="Generated Password"></textarea>
+
+        <div id="btn">
+        <button id="generate">Generate Password</button>
         
-        <button id="generate" class="btn">Generate Password</button>
     </div>
       </form>
 
